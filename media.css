@@ -1,0 +1,30 @@
+@media(max-width:750px) {
+    .mainUnit {
+        padding-bottom: 70px;
+    }
+    .textMain {
+        margin-top: 70px;
+    }
+    .activeNav .navMenu {
+        display: flex;
+        position: fixed;
+        left: 50%;
+        z-index: 1001;
+    }
+    .activeUl .navMenu ul {
+        flex-direction: column;
+    }
+    .activeLi .navMenu li {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .activeA .navMenu a {
+        opacity: 100%;
+    }
+    .burgerMenu {
+        display: flex;
+    }
+    .navMenu {
+        display: none;
+    }
+}
